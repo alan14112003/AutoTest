@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --reporter mochawesome --require mochawesome/register"
   },
   "keywords": [],
   "author": "",
@@ -12,7 +12,9 @@
   "description": "",
   "dependencies": {
     "chai": "^5.1.2",
+    "chai-dom": "^1.12.0",
     "mocha": "^10.8.2",
+    "mochawesome": "^7.1.3",
     "selenium-webdriver": "^4.26.0"
   }
 }
